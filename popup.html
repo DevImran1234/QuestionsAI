@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <title>Get Your Questions Answers through This AI develop By imrandevinc</title>
+</head>
+<body>
+    <div class="upload">
+        <h1>Get Your Questions Answers through This AI develop By imrandevinc</h1>
+        <div class="uploads">
+            <input type="file" class="load" id="fileInput">
+        </div>
+        <div class="submit">
+            <input type="submit" class="reload" id="submitButton" value="Submit">
+        </div>
+         <!-- Answer Popup (Placed directly below the submit button) -->
+        <div class="answer-popup" id="answerPopup" style="display: none;">
+            <div id="answersContent"></div>
+            <div class="button-container">
+                <button class="clear-button" id="clearData">Clear</button>
+            </div>
+        </div>
+       <!-- Spinner for loading animation -->
+       <div id="spinner" class="spinner-container" style="display: none;">
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Include JSZip CDN -->
+    <script src="min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

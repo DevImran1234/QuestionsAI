@@ -1,0 +1,21 @@
+{
+    "name": "ChatGpt Api(Open AI)",
+    "description": "File Upload",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {
+        "128": "load.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+   
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://api.openai.com/*"
+    ]
+  }
